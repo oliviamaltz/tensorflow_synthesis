@@ -30,7 +30,7 @@ class TextureSynthesis:
         # Layer weights for the loss function
         self.layer_weights = layer_weights
         self.original_image = original_image # 256x256x3
-        self.pooling_weights_path = '/home/arsch/git_repos/TextureSynthesis/tensorflow_synthesis/subset_weights'
+        self.pooling_weights_path = '/zpool/vladlab/active_drive/omaltz/git_repos/tensorflow_synthesis/subset_weights'
         self.RF_option = 'tile'
 
         # Number of splits
